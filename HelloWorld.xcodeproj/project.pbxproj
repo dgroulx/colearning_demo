@@ -10,6 +10,7 @@
 		63B477871909C35600CB869C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B477861909C35600CB869C /* Foundation.framework */; };
 		63B4778A1909C35600CB869C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B477891909C35600CB869C /* main.m */; };
 		63B4778E1909C35600CB869C /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63B4778D1909C35600CB869C /* HelloWorld.1 */; };
+		63B477961909CEAB00CB869C /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B477941909CEAB00CB869C /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		63B477891909C35600CB869C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63B4778C1909C35600CB869C /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		63B4778D1909C35600CB869C /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		63B477941909CEAB00CB869C /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
+		63B477951909CEAB00CB869C /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		63B477881909C35600CB869C /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				63B477941909CEAB00CB869C /* console.m */,
+				63B477951909CEAB00CB869C /* console.h */,
 				63B477891909C35600CB869C /* main.m */,
 				63B4778D1909C35600CB869C /* HelloWorld.1 */,
 				63B4778B1909C35600CB869C /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B4778A1909C35600CB869C /* main.m in Sources */,
+				63B477961909CEAB00CB869C /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
